@@ -1,5 +1,4 @@
-#app/controllers/articles_controller.rb
-class ArticlesContoller < ApplicationController
+class ArticlesController < ApplicationController
 
   def index
     @articles = Article.all
